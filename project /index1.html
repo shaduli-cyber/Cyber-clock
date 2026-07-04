@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="ml">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hack Club Cyber Clock</title>
+    <title>Cyber Clock</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div class="clock-container">
-        <div id="clock">00:00:00</div>
-        <div class="tag">HACK CLUB PROJECT</div>
+        <h2>CYBER CLOCK</h2>
+        <div class="time">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+            <span id="ampm" class="ampm"></span>
+        </div>
+        <button id="toggleBtn" onclick="toggleFormat()">Switch to 24H</button>
     </div>
+
     <script src="output.js"></script>
 </body>
 </html>
