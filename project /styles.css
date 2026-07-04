@@ -1,0 +1,35 @@
+body {
+    background-color: #0a0a0a;
+    color: #FF0000;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.clock-container {
+    text-align: center;
+    border: 2px solid #AFFF00;
+    padding: 30px;
+    background: rgba(0, 255, 102, 0.05);
+    box-shadow: 0 0 20px #D0FF00;
+    border-radius: 10px;
+}
+
+#clock {
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #F1FF00;
+}
+
+.tag {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #ff0055;
+    letter-spacing: 3px;
+    text-shadow: 0 0 5px #ff0055;
+}
